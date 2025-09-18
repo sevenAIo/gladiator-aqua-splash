@@ -5,7 +5,7 @@ import { Button } from './ui/enhanced-button';
 import { Badge } from './ui/badge';
 import { Star, ShoppingCart, Zap, Award } from 'lucide-react';
 import { BubbleEffect, RippleEffect } from './WaterEffects';
-import gladiatorBottleSingle from '@/assets/gladiator-bottle-single.jpg';
+import gladiatorBottleFeatured from '@/assets/gladiator-bottle-featured.png';
 import gladiatorBottleDynamic from '@/assets/gladiator-bottle-dynamic.jpg';
 import gladiatorBottlesSplash from '@/assets/gladiator-bottles-splash.jpg';
 
@@ -20,7 +20,7 @@ export const ProductShowcase = () => {
       name: "Gladiator Premium 500ml",
       price: "Rp 3.500",
       priceUSD: "$0.25",
-      image: gladiatorBottleSingle,
+      image: gladiatorBottleFeatured,
       features: ["Natural Spring Water", "ION Silver Enhanced", "BPA-Free Bottle"],
       rating: 4.9,
       popular: true
