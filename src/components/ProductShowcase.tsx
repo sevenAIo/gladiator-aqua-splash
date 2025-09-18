@@ -5,7 +5,9 @@ import { Button } from './ui/enhanced-button';
 import { Badge } from './ui/badge';
 import { Star, ShoppingCart, Zap, Award } from 'lucide-react';
 import { BubbleEffect, RippleEffect } from './WaterEffects';
-import gladiatorBottle from '@/assets/gladiator-bottle.jpg';
+import gladiatorBottleSingle from '@/assets/gladiator-bottle-single.jpg';
+import gladiatorBottleDynamic from '@/assets/gladiator-bottle-dynamic.jpg';
+import gladiatorBottlesSplash from '@/assets/gladiator-bottles-splash.jpg';
 
 export const ProductShowcase = () => {
   const { t } = useTranslation();
@@ -18,7 +20,7 @@ export const ProductShowcase = () => {
       name: "Gladiator Premium 500ml",
       price: "Rp 3.500",
       priceUSD: "$0.25",
-      image: gladiatorBottle,
+      image: gladiatorBottleSingle,
       features: ["Natural Spring Water", "ION Silver Enhanced", "BPA-Free Bottle"],
       rating: 4.9,
       popular: true
@@ -28,7 +30,7 @@ export const ProductShowcase = () => {
       name: "Gladiator Premium 1.5L",
       price: "Rp 8.500",
       priceUSD: "$0.60",
-      image: gladiatorBottle,
+      image: gladiatorBottleDynamic,
       features: ["Family Size", "Premium Quality", "Cost Effective"],
       rating: 4.8,
       popular: false
@@ -38,7 +40,7 @@ export const ProductShowcase = () => {
       name: "Gladiator Premium 19L",
       price: "Rp 25.000",
       priceUSD: "$1.75",
-      image: gladiatorBottle,
+      image: gladiatorBottlesSplash,
       features: ["Gallon Size", "Home & Office", "Best Value"],
       rating: 4.9,
       popular: false

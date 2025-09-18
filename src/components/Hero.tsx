@@ -3,8 +3,9 @@ import { Button } from './ui/enhanced-button';
 import { BubbleEffect, WaveEffect, RippleEffect } from './WaterEffects';
 import { LanguageSelector, useTranslation } from './LanguageSelector';
 import { ChevronDown, Droplet, Mountain, Sparkles } from 'lucide-react';
-import gladiatorLogo from '@/assets/gladiator-logo.png';
-import gladiatorBottle from '@/assets/gladiator-bottle.jpg';
+import gladiatorLogo from '@/assets/gladiator-logo-official.jpg';
+import gladiatorHero from '@/assets/gladiator-hero-vicky.jpg';
+import gladiatorBottle from '@/assets/gladiator-bottle-dynamic.jpg';
 import mountainHero from '@/assets/mountain-hero.jpg';
 
 export const Hero = () => {
@@ -31,7 +32,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(${mountainHero})`,
+          backgroundImage: `url(${gladiatorHero})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           transform: `translateY(${scrollY * 0.5}px)`,
@@ -39,7 +40,7 @@ export const Hero = () => {
       />
       
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-hero opacity-80 z-10" />
+      <div className="absolute inset-0 bg-gradient-hero opacity-60 z-10" />
       
       {/* Water effects */}
       <BubbleEffect />
@@ -53,7 +54,7 @@ export const Hero = () => {
             <img 
               src={gladiatorLogo} 
               alt="Gladiator Logo" 
-              className="h-12 w-auto premium-glow"
+              className="h-12 w-auto bg-white/90 rounded-lg p-2 premium-glow"
             />
             <div className="text-white">
               <h1 className="text-xl font-bold">Gladiator</h1>
@@ -72,7 +73,7 @@ export const Hero = () => {
             <div className="space-y-4">
               <div className="flex items-center justify-center gap-2 text-gold-light mb-4">
                 <Sparkles className="w-6 h-6" />
-                <span className="text-sm uppercase tracking-wider font-medium">Premium Quality</span>
+                <span className="text-sm uppercase tracking-wider font-medium">{t('hero.tagline')}</span>
                 <Sparkles className="w-6 h-6" />
               </div>
               

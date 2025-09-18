@@ -41,14 +41,15 @@ export const useTranslation = () => {
   const [currentLang, setCurrentLang] = useState<string>('en');
 
   const translations = {
-    en: {
-      hero: {
-        title: "Gladiator Mineral Water",
-        subtitle: "Healthy, Refreshing & Premium",
-        description: "Not just ordinary water. Selected from natural mountain springs, processed with Japanese Technology & ION Silver.",
-        buyNow: "Buy Now",
-        learnMore: "Learn More"
-      },
+        en: {
+          hero: {
+            title: "Gladiator Mineral Water",
+            subtitle: "Healthy, Refreshing & Premium",
+            tagline: "Refresh Soul & Body",
+            description: "Not just ordinary water. Selected from natural mountain springs, processed with Japanese Technology & ION Silver.",
+            buyNow: "Buy Now",
+            learnMore: "Learn More"
+          },
       about: {
         title: "About Gladiator",
         story: "Gladiator Mineral Water is proudly owned by Vicky Prasetyo, dedicated to bringing freshness and premium hydration to every drop.",
@@ -86,14 +87,15 @@ export const useTranslation = () => {
         description: "We are committed to environmental responsibility through sustainable packaging and eco-friendly production processes."
       }
     },
-    id: {
-      hero: {
-        title: "Gladiator Mineral Water",
-        subtitle: "Sehat, Menyegarkan & Premium",
-        description: "Bukan air biasa. Dipilih dari mata air pegunungan alami, diproses dengan Teknologi Jepang & ION Silver.",
-        buyNow: "Beli Sekarang",
-        learnMore: "Pelajari Lebih Lanjut"
-      },
+      id: {
+        hero: {
+          title: "Gladiator Mineral Water",
+          subtitle: "Sehat, Menyegarkan & Premium",
+          tagline: "Seyarkan Jiwa & Raga",
+          description: "Bukan air biasa. Dipilih dari mata air pegunungan alami, diproses dengan Teknologi Jepang & ION Silver.",
+          buyNow: "Beli Sekarang",
+          learnMore: "Pelajari Lebih Lanjut"
+        },
       about: {
         title: "Tentang Gladiator",
         story: "Gladiator Mineral Water dimiliki dengan bangga oleh Vicky Prasetyo, yang berdedikasi untuk memberikan kesegaran dan hidrasi premium di setiap tetes.",
