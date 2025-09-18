@@ -5,7 +5,7 @@ import { LanguageSelector, useTranslation } from './LanguageSelector';
 import { ChevronDown, Droplet, Mountain, Sparkles } from 'lucide-react';
 import gladiatorLogo from '@/assets/gladiator-logo-official.jpg';
 import gladiatorHero from '@/assets/gladiator-hero-vicky.jpg';
-import gladiatorBottle from '@/assets/gladiator-bottle-featured.png';
+import gladiatorBottle from '@/assets/gladiator-bottle-premium.png';
 import mountainHero from '@/assets/mountain-hero.jpg';
 
 export const Hero = () => {
